@@ -1,0 +1,40 @@
+=== UPDATE RESUMES Sun Mar 22 14:37:14 +04 2026 ===
+Default profile
+Traceback (most recent call last):
+  File "/usr/local/bin/hh-applicant-tool", line 3, in <module>
+    from hh_applicant_tool.main import main
+  File "/app/src/hh_applicant_tool/__init__.py", line 1, in <module>
+    from .main import HHApplicantTool
+  File "/app/src/hh_applicant_tool/main.py", line 19, in <module>
+    import requests
+  File "/usr/local/lib/python3.13/site-packages/requests/__init__.py", line 45, in <module>
+    from .exceptions import RequestsDependencyWarning
+  File "/usr/local/lib/python3.13/site-packages/requests/exceptions.py", line 9, in <module>
+    from .compat import JSONDecodeError as CompatJSONDecodeError
+  File "/usr/local/lib/python3.13/site-packages/requests/compat.py", line 42, in <module>
+    chardet = _resolve_char_detection()
+  File "/usr/local/lib/python3.13/site-packages/requests/compat.py", line 36, in _resolve_char_detection
+    chardet = importlib.import_module(lib)
+  File "/usr/local/lib/python3.13/importlib/__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/charset_normalizer/__init__.py", line 26, in <module>
+    from .api import from_bytes, from_fp, from_path, is_binary
+  File "/usr/local/lib/python3.13/site-packages/charset_normalizer/api.py", line 47, in <module>
+    if is_multi_byte_encoding(_supported_enc):
+       ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/charset_normalizer/utils.py", line 281, in is_multi_byte_encoding
+    importlib.import_module(f"encodings.{name}").IncrementalDecoder,
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/importlib/__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/encodings/cp1252.py", line 9, in <module>
+    class Codec(codecs.Codec):
+    ...<5 lines>...
+            return codecs.charmap_decode(input,errors,decoding_table)
+KeyboardInterrupt
+Second profile
+[31m[W] ТЕКУЩАЯ ВЕРСИЯ 1.7.9 УСТАРЕЛА. РЕКОМЕНДУЕТСЯ ОБНОВИТЬ ЕЁ ДО ВЕРСИИ 1.8.0.[0m
+✅ Обновлено https://hh.ru/resume/87838141ff103495b80039ed1f4c5137315263 - Golang Developer
+=== SLEEP 4h10m ===

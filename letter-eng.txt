@@ -1,0 +1,12 @@
+{Hello|Good afternoon}! 👋
+
+{Please consider my application|I would like to apply} for the "%(vacancy_name)s" position.
+
+I am a Go backend developer with {4+ years|more than 4 years} of commercial experience.
+I have worked at {Megamarket and Wildberries|both mid-size and big tech companies such as Megamarket and Wildberries}. {I have experience working across the full development lifecycle|I have experience covering the full development lifecycle from development to production support}.
+
+💻 Main stack: Go, PostgreSQL, Kafka, Redis, Docker, Kubernetes, gRPC, REST API, Git, CI/CD, Prometheus, Grafana, Elasticsearch.
+
+I would be happy to discuss the position and tell you more about my experience.
+
+📩 The most convenient way to contact me is Telegram: @roman_redalert

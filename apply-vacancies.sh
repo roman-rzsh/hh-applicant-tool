@@ -1,0 +1,13 @@
+hh-applicant-tool -d 3 -vv apply-vacancies \
+--resume-id 68cca835ff1023f0050039ed1f6d42676d5151 \
+--professional-role 96 156 160 \
+--experience between1And3 between3And6 \
+--schedule remote \
+--period 50 \
+--per-page 40 \
+--total-pages 5 \
+--order-by publication_time \
+--force-message \
+--excluded-filter 'junior|intern|trainee|стаж|frontend|fullstack|react|vue|angular|javascript|php|qa|test|manager|1c|bitrix|wordpress|laravel|тестировщик' \
+-L letter.txt
+--dry-run
